@@ -1,5 +1,9 @@
 # UIImage
 
+https://developer.apple.com/documentation/uikit/uiimage
+
+---
+
 > 앱 내에서 이미지 데이터를 관리하는 객체
 
 

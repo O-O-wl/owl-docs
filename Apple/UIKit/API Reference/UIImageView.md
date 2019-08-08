@@ -1,10 +1,12 @@
 # UIImageView
 
+https://developer.apple.com/documentation/uikit/uiimageview
+
 ---
 
 >단일 이미지 또는 연속되는 이미지를  인터페이스에 디스플레이 해주는 객체
 
-https://developer.apple.com/documentation/uikit/uiimageview
+
 
 <br/>
 

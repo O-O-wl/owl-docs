@@ -2,9 +2,11 @@
 
 # UITableViewDelegate
 
+https://developer.apple.com/documentation/uikit/uitableviewdelegate
+
 ---
 
-> 선택 관리, 색션의 해더와 푸터를 설정하고, 셀들을 재정렬, 삭제 그리고 테이블뷰내의 다른 수행을 설정할 수 있는 메소드들
+> 선택 관리, 색션의 해더와 푸터를 설정하고, 셀들을 재정렬, 삭제 그리고 테이블 뷰 내의 다른 수행을 설정할 수 있는 메소드들
 >
 > ---
 
