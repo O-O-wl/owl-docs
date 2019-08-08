@@ -67,7 +67,7 @@ https://developer.apple.com/documentation/uikit/uiimageview
 >
 >   
 >
->   
+>   <br>
 >
 > - `scaleAspectFit`
 >
@@ -93,7 +93,7 @@ https://developer.apple.com/documentation/uikit/uiimageview
 >
 >   
 >
->   
+>   <br>
 >
 > - `scaleAspectFill`
 >
@@ -119,7 +119,7 @@ https://developer.apple.com/documentation/uikit/uiimageview
 >
 >   
 >
->   
+>   <br>
 >
 >   <br>
 >
