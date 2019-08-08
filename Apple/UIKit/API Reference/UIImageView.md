@@ -75,6 +75,8 @@ https://developer.apple.com/documentation/uikit/uiimageview
 >
 > <br>
 >
+> 
+>
 > - `scaleAspectFill`
 >
 > <img width="200" alt="aspectFill" src="https://user-images.githubusercontent.com/39197978/62196540-3588f300-b3b9-11e9-8bc7-0aa9300d1a1a.png" align = left>	<br><br><br><br><br><br>	Aspect ratio 를 유지하면서, 
