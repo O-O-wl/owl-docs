@@ -45,85 +45,89 @@ https://developer.apple.com/documentation/uikit/uiimageview
 >
 > - `scaleToFil`
 >
->   <img width="200" alt="scaleFill" src="https://user-images.githubusercontent.com/39197978/62196543-3588f300-b3b9-11e9-9166-6bf5c9b26576.png" align = left> 
+> <img width="200" alt="scaleFill" src="https://user-images.githubusercontent.com/39197978/62196543-3588f300-b3b9-11e9-9166-6bf5c9b26576.png" align = left> 
 >
->   
+> 
 >
->   ​	
+> ​	
 >
->   
+> 
 >
->   ​	필요에 따라 이미지의 
+> ​	필요에 따라 이미지의 
 >
->   ​	aspect ratio(종횡비)를 바꾸면서
+> ​	aspect ratio(종횡비)를 바꾸면서
 >
->   ​	컨텐트의 사이즈를 맞추는 옵션
+> ​	컨텐트의 사이즈를 맞추는 옵션
 >
->   ​	**이미지의 가로세로 비율이 변경되어 보여질 수있다**
+> ​	**이미지의 가로세로 비율이 변경되어 보여질 수있다**
 >
->   
+> 
 >
->   
+> 
 >
->   
+> 
 >
->   <br>
+> <br>
+>
+> <br>
 >
 > - `scaleAspectFit`
 >
->   <img width="200" alt="aspectFit" src="https://user-images.githubusercontent.com/39197978/62196542-3588f300-b3b9-11e9-9e7f-6669bc2b13b6.png" align = left> 
+> <img width="200" alt="aspectFit" src="https://user-images.githubusercontent.com/39197978/62196542-3588f300-b3b9-11e9-9e7f-6669bc2b13b6.png" align = left> 
 >
->    ​	
+> ​	
 >
->   
+> 
 >
->   
+> 
 >
->   ​	aspect ratio를 유지하면서, 
+> ​	aspect ratio를 유지하면서, 
 >
->   ​	컨텐트의 사이즈를 알맞게 사이즈를 맞추는 옵션
+> ​	컨텐트의 사이즈를 알맞게 사이즈를 맞추는 옵션
 >
->   ​	**남는 부분은 투명하게 처리한다**.
+> ​	**남는 부분은 투명하게 처리한다**.
 >
->   
+> 
 >
->   
+> 
 >
->   
+> 
 >
->   
+> 
 >
->   <br>
+> <br>
+>
+> <br>
 >
 > - `scaleAspectFill`
 >
->   <img width="200" alt="aspectFill" src="https://user-images.githubusercontent.com/39197978/62196540-3588f300-b3b9-11e9-8bc7-0aa9300d1a1a.png" align = left>	
+> <img width="200" alt="aspectFill" src="https://user-images.githubusercontent.com/39197978/62196540-3588f300-b3b9-11e9-8bc7-0aa9300d1a1a.png" align = left>	
 >
->   
+> 
 >
->   
+> 
 >
->   ​	
+> ​	
 >
->   ​	Aspect ratio 를 유지하면서, 
+> ​	Aspect ratio 를 유지하면서, 
 >
->   ​	컨텐트를 뷰에 가득 채운다.
+> ​	컨텐트를 뷰에 가득 채운다.
 >
->   ​	**뷰를 가득 채우기 위해, 컨텐트의 일부가 잘릴 수 있다.**
+> ​	**뷰를 가득 채우기 위해, 컨텐트의 일부가 잘릴 수 있다.**
 >
->   
+> 
 >
->   
+> 
 >
->   
+> 
 >
->   
+> 
 >
->   <br>
+> <br>
 >
->   <br>
+> <br>
 >
->   ---
+> ---
 
 <br><br>
 
