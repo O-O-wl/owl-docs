@@ -2,7 +2,7 @@
 
 
 
-<a href ="#-Using-Segues">Using Segues - 세그웨이 사용하기</a>
+[Using Segues - 세그웨이 사용하기](#-Using-Segues)
 
 
 
