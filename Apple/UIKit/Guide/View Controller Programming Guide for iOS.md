@@ -2,7 +2,7 @@
 
 
 
-[Using Segues - 세그웨이 사용하기](##-using-segues)
+[Using Segues - 세그웨이 사용하기](#using-segues)
 
 
 
