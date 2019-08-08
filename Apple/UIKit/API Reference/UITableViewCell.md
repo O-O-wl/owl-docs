@@ -149,6 +149,7 @@ class UITableViewCell: UIView
   - 재사용가능한 셀의 식별자로 사용되는 문자열
 - **`func prepareForReuse()`**
   - 테이블 뷰의 델리게이트로 부터 재사용을 위해 재사용가능한 셀을 준비하는 메서드
+  - **데이터소스의 `dequeueReuseableCell() `을 호출 시 해당 셀의 `prepareForReuse() `메소드가 호출된다.**  
 
 <br>
 
