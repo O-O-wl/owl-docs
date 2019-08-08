@@ -1,8 +1,8 @@
-# VIew Controller Programming Guide for iOS
+# View Controller Programming Guide for iOS
 
 
 
-<a href ="##-Using-Segues">Using Segues - 세그웨이 사용하기</a>
+<a href ="#-Using-Segues">Using Segues - 세그웨이 사용하기</a>
 
 
 
