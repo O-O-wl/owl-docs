@@ -18,6 +18,8 @@
 
 ### Declaration
 
+---
+
 ```swift
 class UITableViewCell: UIView
 ```
@@ -34,7 +36,7 @@ class UITableViewCell: UIView
 
 ### OverView
 
-<br>
+---
 
 `UITableViewCell` 객체는 하나의 테이블 로우의 컨텐트를 관리하는 뷰의 타입이다.
 
@@ -71,7 +73,7 @@ class UITableViewCell: UIView
 
 ### Configuring Your Cell's Content - 셀의 컨텐트 설정하기
 
-<br>
+---
 
 스토리보드안의 셀의 레이아웃과 컨텐트를 설정하자. 기본적으로 테이블은 하나의 셀 타입을 가지고 있다.
 
@@ -158,6 +160,8 @@ class UITableViewCell: UIView
 
 ####  Specifying Content for Standard Cell Styles - 표준 셀의 스타일의 컨텐트 명시하기
 
+---
+
 - **`var textLabel: UILabel?`**
   - 테이블 셀의 메인 텍스트로 사용되는 레이블
 - **`var detailTextLabel: UILabel?`**
@@ -174,6 +178,8 @@ class UITableViewCell: UIView
 <br>
 
 #### Accessing Views of the Cell Object - 셀 객체의 뷰들에 접근하기
+
+---
 
 - **`var contentView: UIView`**
   - 셀 객체의 컨텐트 뷰
@@ -220,6 +226,8 @@ class UITableViewCell: UIView
 
 #### Editing the Cell - 셀 수정하기
 
+---
+
 - **`var isEditing: Bool`**
   - 셀이 수정가능한 상태인지 표시하는 Boolean 값
 - **`func setEditing(Bool, animated: Bool)`**
@@ -256,6 +264,8 @@ class UITableViewCell: UIView
 <br>
 
 #### Adjusting to State Transitions - 상태 변경 적용하기
+
+---
 
 - **`func willTransition(to: UITableViewCell.StateMask)`**
   - **새로운 셀의 상태로 막 변하려고할 때** 셀에게 알리기 위해 호출되는 메서드

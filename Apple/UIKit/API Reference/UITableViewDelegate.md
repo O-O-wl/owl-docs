@@ -16,7 +16,7 @@ https://developer.apple.com/documentation/uikit/uitableviewdelegate
 
 ### Declaration
 
-<br>
+---
 
 ```swift
 protocol UITableViewDelegate
@@ -26,7 +26,9 @@ protocol UITableViewDelegate
 
 ### OverView
 
-<br>아래의 기능들을 관리기위해서는 이 프로토콜의 메소드를 사용하자.
+---
+
+아래의 기능들을 관리기위해서는 이 프로토콜의 메소드를 사용하자.
 
 - 커스텀한 헤더와 푸터 뷰들을 생성하고, 관리하기
 - 헤더들, 푸터들 ,로우들의 높이를 사용자 정의로 명시하기
@@ -48,11 +50,15 @@ protocol UITableViewDelegate
 
 ### Topic
 
+---
+
+<br>
+
 <br>
 
 #### Configuring Rows for the Table View - 테이블 뷰의 로우 설정하기
 
-<br>
+---
 
 - **`func tableView(UITableView: willDisplay: UITableViewCell, forRowAt: IndexPath)`**
 
@@ -75,6 +81,8 @@ protocol UITableViewDelegate
 <br>
 
 ### Responding to Row Selections - 로우의 선택에 응답하기
+
+---
 
 - **`func tableView(UITableView, wilSelectRowAt: IndexPath) -> IndexPath?`**
   - 특정한 로우가 선택되기 직전에 델리게이트에게 알려주는 메소드 , 반환형으로 다른 인덱스가 선택되게 할 수있다.
@@ -136,6 +144,8 @@ protocol UITableViewDelegate
 <br><br>
 
 #### Responding to Row Actions - 로우의 액션 응답하기
+
+---
 
 - **`func tableView(UITableView, leadingSwipeActoinsConfiguratoinForRowAt: IndexPath) -> UISwipeActionsConfiguration?`**
   - 로우의 leading edge에 표시할 스와이프 액션을 반환하는 메서드

@@ -24,7 +24,7 @@ protocol UITableViewDataSource
 
 ### Overview
 
-<br>
+---
 
 테이블 뷰들은 단지 그들의 **데이터의 시각화만을 관리**한다. 그들은 데이터 그 자체를 관리하지는 않는다.
 
@@ -78,7 +78,7 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 
 ### Specifying the Location of Rows and Sections
 
-<br>
+---
 
 테이블 뷰들은 `NSIndexPath` 객체들의 `row`,`section` 프로퍼티들을 사용하여 셀의 위치를 전달한다.
 
@@ -105,6 +105,8 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 <br>
 
 #### Providing the Number of Rows and Sections - 로우와 섹션의 수를 제공하기
+
+---
 
 - **`@required func tableView(UITableView, numberOfSectionRowsInSection: Int) -> Int`**
 
@@ -138,6 +140,8 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 
 #### Inserting or Deleting Table Rows - 테이블 로우들을 삭제하고 삽입하기
 
+---
+
 - **`func tableView(UITableView, commit: UITableViewCell.EditingStyle, forRowAt: IndexPath)`**
   - 명시된 로우의 삽입과 삭제의 커밋에 대해 데이터 소스에게 요청하는 메소드
 - **`func tableView(UITableView, canEditRowAt: IndexPath) -> Bool`**
@@ -150,6 +154,8 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 <br><br>
 
 ####  Configuring an Index - 인덱스 설정하기
+
+---
 
 - **`func sectionIndexTitles(for: UITableView) -> [String]?`**
   - 데이터소스에게 테이블 뷰의 섹션의 **타이틀들**을 물어보는 메소드

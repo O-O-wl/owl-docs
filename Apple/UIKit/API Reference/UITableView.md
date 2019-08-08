@@ -14,6 +14,8 @@ https://developer.apple.com/documentation/uikit/uitableview
 
 ### Declaration
 
+---
+
 ```swift
 class UITableView: UIScrollView
 ```
@@ -24,7 +26,7 @@ class UITableView: UIScrollView
 
 ### OverView
 
-<br>
+---
 
 iOS에서의  테이블 뷰는 **수직**으로 스크롤하는 **컨텐트를 로우들로 나누어서 하나의 칼럼으로 디스플레이**한다.
 
@@ -68,7 +70,7 @@ iOS에서의  테이블 뷰는 **수직**으로 스크롤하는 **컨텐트를 �
 
 ### Adding a Table View to Your Interface
 
-<br>
+---
 
 테이블 뷰를 앱의 인터페이스에 추가하기 위해서는 Table View Controller 를 스토리보드에 드래그하면 된다.
 
@@ -92,7 +94,7 @@ Xcode는 뷰 컨트롤러와 테이블 뷰 를 둘 다 포함하는 씬을 하�
 
 ### Saving and Restoring the Table's Current State
 
-<br>
+---
 
 테이블 뷰 들은 UIKit 앱의 복구를 지원한다. 테이블의 데이터를 저장하고 다시 복구하기 위해서는, 테이블 뷰의 `restorationIdentifier` 프로퍼티에 값을 할당 해야한다.  테이블 뷰를 표현해주는 뷰를 저장할 때, 테이블 뷰도 자동적으로 현재 선택되고 보여지는 로우들의 `IndexPath` 를 저장한다.  만약 테이블의 데이터 소스 객체가 `UIDataSourceModelAssociation` 프로토콜을 채택했다면, `IndexPath`대신에 개발자가 제공하는 ID를 저장한다.
 
@@ -108,11 +110,13 @@ Xcode는 뷰 컨트롤러와 테이블 뷰 를 둘 다 포함하는 씬을 하�
 
 ---
 
+<br>
 
+<br>
 
 #### Creating a Table View - 테이블 뷰 생성하기
 
-<br>
+---
 
 - **`init(frame: CGRect, style: UITableView.Style)`**
   - 주어진 frame 과 style 을 가지는 테이블 뷰를 생성하고 반환한다.
@@ -126,7 +130,7 @@ Xcode는 뷰 컨트롤러와 테이블 뷰 를 둘 다 포함하는 씬을 하�
 
 #### Providing the Table's Data and Cells - 테이블의 데이터와 셀들 제공하기
 
-<br>
+---
 
 - **`var dataSource: UITableViewDataSource?`**
   - 테이블 뷰의 데이터 소스로서 역할을 하는 객체
@@ -152,7 +156,7 @@ Xcode는 뷰 컨트롤러와 테이블 뷰 를 둘 다 포함하는 씬을 하�
 
 #### Recycling Table View Cells - 테이블 셀들 재사용하기 
 
-<br>
+---
 
 - **`func register(UINib?, forCellReuseIdentifier: String)`**
 
@@ -180,7 +184,7 @@ Xcode는 뷰 컨트롤러와 테이블 뷰 를 둘 다 포함하는 씬을 하�
 
 #### Recycling Section Headers and Footers - 색션의 헤더와 푸터 재사용하기
 
-<br>
+---
 
 - **`func register(UINib?, forHeaderFooterViewReuseIdentifier: String)`**
   - 명시된 식별자의 테이블 뷰와 헤더(머리글) 또는 푸터(바닥글) 를포함하는 nib객체를 등록하는 메서드
@@ -196,6 +200,8 @@ Xcode는 뷰 컨트롤러와 테이블 뷰 를 둘 다 포함하는 씬을 하�
 <br>
 
 #### Managing Interactions with the Table - 테이블 관리 상호작용하기
+
+---
 
 - **`var delegate: UITableViewDelegate?`**
 
@@ -215,7 +221,7 @@ Xcode는 뷰 컨트롤러와 테이블 뷰 를 둘 다 포함하는 씬을 하�
 
 #### Customizing the Separator Appearance -  테이블 분리공간(섹션) 커스터마이징하기
 
-<br>
+---
 
 - **`separatorStyle: UITabelViewCell.SeparatorStyle`**
   - 해당 테이블 셀들에 대해 구분자로써 사용되는 스타일
@@ -246,7 +252,7 @@ Xcode는 뷰 컨트롤러와 테이블 뷰 를 둘 다 포함하는 씬을 하�
 
 #### Getting the Number of Rows and Sections - 섹션과 로우들의 수를 가져오기
 
-<br>
+---
 
 <추후 업데이트 예정>
 

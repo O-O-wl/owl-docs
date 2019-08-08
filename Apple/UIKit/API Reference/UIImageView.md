@@ -12,6 +12,8 @@ https://developer.apple.com/documentation/uikit/uiimageview
 
 ### OverView
 
+---
+
 - 특정한 `UIImage`  객체를 사용하는 어떠한 이미지를 능률적으로 그릴수 있게 해준다.
 
 - example
@@ -33,6 +35,8 @@ https://developer.apple.com/documentation/uikit/uiimageview
   <br/>
 
 ### UnderStanding How Images Are Scaled ◾️◼️⬛️
+
+---
 
 - `ImageView`는 `contentMode` 라는 프로퍼티를 사용하여, 어떻게 이미지가 디스플레이 되어 질 지를  스스로 결정합니다.
 - 지정된 이미지의 크기와 `ImageView`의 크기가 정확하게 일치하는 것이 가장 좋지만, 그렇지 않다면 `imageView`는 이미지의 비율을 조절한다.
