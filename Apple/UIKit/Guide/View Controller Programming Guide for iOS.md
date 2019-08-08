@@ -29,7 +29,9 @@
 
 UIKit이 보낸 Notification을 사용해서, 데이터를 새로운 뷰 컨트롤러에게 전달하거나, 세그웨이가 일어나지 않게 막을 수 있다.
 
+<br>
 
+<br>
 
 #### Creating a Segue Between View Controllers
 
@@ -120,6 +122,8 @@ Adaptive 세그웨이는 그들의 행동을 현재 환경을 기반으로 자�
 
 <br>
 
+<br>
+
 ##### To create an unwind segue
 
 1. unwind 이후 보여줄 뷰 컨트롤러를 선택한다.
@@ -136,7 +140,9 @@ Adaptive 세그웨이는 그들의 행동을 현재 환경을 기반으로 자�
 
 
 
+<br>
 
+<br>
 
 
 
