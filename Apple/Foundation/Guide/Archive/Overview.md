@@ -26,6 +26,8 @@
 
 직렬화는 단지 객체들의 값과 계층에서 그 값의 위치만을 저장한다.
 
+Multiple references to the same value object might result in multiple objects when deserialized. The mutability of the objects is not maintained.
+
 같은 값 객체에 대한 다중 참조는  역직렬화 의 결과는 같은 값을 가진 여러개의 객체가 된다.
 
 프로퍼티 리스트는 직렬화의 예이다. 앱 요소(`Info.plist`)와 사용자 환경설정은 프로퍼티 리스트로 저장된다.
