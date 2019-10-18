@@ -34,7 +34,7 @@ class URLSession : NSObject
 
 각각의 세션은 작업의 연속을 더하고, 각각은 특정한 URL에 대한 요청을 표현한다.
 
-<br>
+<br><br>
 
 ### Types of URL Sessions
 
@@ -58,7 +58,7 @@ See [Creating a Session Configuration Object](https://developer.apple.com/docume
 
 <br>
 
-
+<br>
 
 ### Types of URL Session Tasks
 
@@ -74,11 +74,9 @@ See [Creating a Session Configuration Object](https://developer.apple.com/docume
 - `Upload Task`는 `Data Task` 와 유사합니다 .그러나  **파일 형태의 데이터를 보내고, 또 앱이 동작중이 아닐 지라도  백그라운드 업로드를 지원합니다**
 - `Download Task` 는 파일형태의 데이터흘 가져옵니다. 그리고 앱이 동작중이 아닐 지라도 백그라운드 업로드와 다운로드를 지원합니다. 
 
-
+<br>
 
 ### Using a Session Delegate
-
-
 
 세션안의 작업들은 또한 우리에게 발생한 **다양한 이벤트(인증의 실패, 서버로부터의 데이터 도착, 데이터가 캐시되어졌을때, 등등) 의 정보를 제공해주는 델리게이트를 공유**합니다.
 
@@ -94,11 +92,9 @@ See [Creating a Session Configuration Object](https://developer.apple.com/docume
 
 
 
-
+<br>
 
 ### Asynchronicity and URL Sessions
-
-Like most networking APIs, the `URLSession` API is highly asynchronous. It returns data to your app in one of two ways, depending on the methods you call:
 
 대부분의 네트워킹 API 처럼, `URLSession` API 도 비동기적이다. 
 
@@ -118,7 +114,7 @@ URLSession API는 만약 **작업의 현재 상태**를 기반으로 프로그�
 
 URLSession들은 취소, 재시작, 재개, 작업 중지를 지원합니다. 그리고 중지되거나 취소되거나 실패한 다운로드에 대해 재개할 수 있는 능력또한 제공합니다.
 
-
+<br><br>
 
 ### Protocol Support
 
@@ -130,11 +126,15 @@ URLSession들은 취소, 재시작, 재개, 작업 중지를 지원합니다. �
 
 You can also add support for your own custom networking protocols and URL schemes (for your app’s private use) by subclassing `URLProtocol`.
 
+<br><br>
+
 ### App Transport Security (ATS)
 
 Starting in iOS 9.0 and OS X 10.11, a new security feature called App Transport Security (ATS) is enabled by default for all HTTP connections made with `URLSession`. ATS requires that HTTP connections use HTTPS ([RFC 2818](https://tools.ietf.org/html/rfc2818)).
 
 For more information, see [NSAppTransportSecurity](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33) in the [Information Property List Key Reference](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009247).
+
+<br><br>
 
 ### NSCopying Behavior
 
@@ -143,7 +143,7 @@ Session and task objects conform to the [`NSCopying`](https://developer.apple.co
 - When your app copies a session or task object, you get the same object back.
 - When your app copies a configuration object, you get a new copy that you can independently modify.
 
-
+<br><br>
 
 ### Thread Safety
 
